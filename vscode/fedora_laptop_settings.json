@@ -1,0 +1,65 @@
+{
+    "extensions.ignoreRecommendations": true,
+    "workbench.iconTheme": "vscode-icons",
+    "editor.cursorSmoothCaretAnimation": true,
+    "editor.cursorBlinking": "phase",
+    "editor.fontLigatures": true,
+    "editor.fontFamily": "'Jetbrains Mono', 'Fira Code', 'ComicCodeLigatures Nerd Font', 'Comic Code Ligatures',  'Droid Sans Mono', 'monospace', monospace, 'Droid Sans Fallback'",/*
+    "vscode_custom_css.imports": [
+        "file:///home/vestue/.vscode/extensions/thecodemonkey.synthwave-x-fluoromachine-epic-animations-1.4.13/synthwave-x-fluoromachine.css",
+        "file:///home/vestue/.vscode/extensions/thecodemonkey.synthwave-x-fluoromachine-epic-animations-1.4.13/epic-80s-transitions.css"
+        ],*/
+    "keyboard.dispatch": "keyCode",
+    "vsicons.dontShowNewVersionMessage": true,
+    "workbench.colorTheme": "Catppuccin Mocha",
+    "security.workspace.trust.untrustedFiles": "open",
+    "C_Cpp.vcFormat.newLine.beforeOpenBrace.block": "newLine",
+    "C_Cpp.vcFormat.newLine.beforeOpenBrace.function": "newLine",
+    "C_Cpp.vcFormat.newLine.beforeOpenBrace.lambda": "newLine",
+    "C_Cpp.vcFormat.newLine.beforeOpenBrace.namespace": "newLine",
+    "C_Cpp.vcFormat.newLine.beforeOpenBrace.type": "newLine",
+    "C_Cpp.autocompleteAddParentheses": true,
+    "C_Cpp.vcFormat.space.beforeOpenSquareBracket": true,
+    "C_Cpp.vcFormat.space.betweenEmptyLambdaBrackets": true,
+    "C_Cpp.vcFormat.space.betweenEmptySquareBrackets": true,
+    "C_Cpp.vcFormat.newLine.scopeBracesOnSeparateLines": true,
+    "C_Cpp.vcFormat.space.betweenEmptyBraces": true,
+    "C_Cpp.clang_format_fallbackStyle": "{ BasedOnStyle: LLVM, UseTab: Never, IndentWidth: 4, TabWidth: 4, BreakBeforeBraces: Attach, AllowShortIfStatementsOnASingleLine: false, IndentCaseLabels: false, ColumnLimit: 0, AccessModifierOffset: -4 }",
+    "editor.formatOnType": false,
+    "better-comments.multilineComments": true,
+    "editor.detectIndentation": false,
+    "workbench.editor.showTabs": false,
+    "editor.insertSpaces": false,
+	"editor.tabSize": 2,
+	"git.autofetch": true,
+	"files.autoSave": "afterDelay",
+	"latex-workshop.message.update.show": false,
+    "latex-workshop.message.warning.show": false,
+    "latex-workshop.message.information.show": false,
+	"latex-workshop.message.error.show": false,
+	"latex-workshop.view.pdf.viewer": "tab",
+	"editor.inlineSuggest.enabled": true,
+	"git.confirmSync": false,
+	"github.copilot.enable": {
+		"*": false,
+		"yaml": false,
+		"plaintext": false,
+		"markdown": false,
+		"sqlite": false
+	},
+	"editor.fontWeight": "bold",
+	"cmake.configureOnOpen": false,
+	"window.zoomLevel": 1,
+	"[dart]": {
+		"editor.formatOnSave": true,
+		"editor.formatOnType": true,
+		"editor.rulers": [
+			80
+		],
+		"editor.selectionHighlight": false,
+		"editor.suggest.snippetsPreventQuickSuggestions": false,
+		"editor.suggestSelection": "first",
+		"editor.tabCompletion": "onlySnippets",
+		"editor.wordBasedSuggestions": false
+	}
+}

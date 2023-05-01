@@ -1,0 +1,8 @@
+https://stackoverflow.com/questions/35424303/intellij-autocompletion-replacing-the-subsequent-word
+
+
+
+This behavior depends on the key that you use to select the item from the completion list. If you press Enter, the selected item is inserted in the code before the following identifier. If you press Tab, the selected item replaces the identifier following the cursor.
+
+If you prefer, you can change the behavior by reassigning keyboard shortcuts for "Choose Lookup Item" and "Choose Lookup Item Replace" under Settings | Keymap.
+

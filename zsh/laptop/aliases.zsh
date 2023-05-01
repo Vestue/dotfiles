@@ -1,0 +1,7 @@
+alias ll='exa -l --git'
+alias ls='exa -1'
+alias gs='git status'
+alias godot='~/Repos/Godot/./Godot.64'
+alias gpull='git pull'
+alias :q='exit'
+alias c='clear'

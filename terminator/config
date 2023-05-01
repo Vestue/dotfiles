@@ -1,0 +1,40 @@
+[global_config]
+  focus = mouse
+  title_transmit_fg_color = "#000000"
+  title_transmit_bg_color = "#c0bebf"
+  title_inactive_fg_color = "#ffffff"
+  title_inactive_bg_color = "#000000"
+  suppress_multiple_term_dialog = True
+  always_split_with_profile = True
+  title_font = Comic Code Ligatures Bold 11
+[keybindings]
+  zoom_in = <Primary>KP_Add
+  zoom_out = <Primary>KP_Subtract
+  group_all = ""
+  group_all_toggle = <Super>g
+  broadcast_off = <Primary><Shift>odiaeresis
+  broadcast_group = <Primary><Shift>aring
+  broadcast_all = <Primary><Shift>adiaeresis
+[profiles]
+  [[default]]
+    cursor_color = "#aaaaaa"
+  [[Fancy]]
+    background_darkness = 0.6
+    background_type = transparent
+    cursor_color = "#aaaaaa"
+    font = Comic Code Ligatures Bold 13
+    foreground_color = "#ffffff"
+    show_titlebar = False
+    palette = "#000000:#cd0000:#00cd00:#cdcd00:#36aaf7:#cd00cd:#00cdcd:#faebd7:#404040:#ff0000:#00ff00:#ffff00:#5c5cff:#ff00ff:#00ffff:#ffffff"
+    use_system_font = False
+[layouts]
+  [[default]]
+    [[[window0]]]
+      type = Window
+      parent = ""
+      profile = Fancy
+    [[[child1]]]
+      type = Terminal
+      parent = window0
+      profile = Fancy
+[plugins]
