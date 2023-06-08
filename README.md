@@ -6,7 +6,7 @@ A collection of my personal configuration files.
 
 ### GNOME
 
-![Example of gnome customization](assets/gnome/terminator-nvim.png)
+![Example of gnome customization](assets/gnome_terminator-nvim.png)
 |Terminator with oh-my-zsh and powerlevel10k|Neovim using AstroNvim|
 |-|-|
 
