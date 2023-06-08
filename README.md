@@ -2,7 +2,13 @@
 
 A collection of my personal configuration files.
 
-## Configs
+## Examples
+
+### Gnome
+
+[Terminator with oh-my-zsh to the left, Neovim to the right](assets/gnome/terminator-nvim.png)
+
+## Specification
 
 ### Neovim
 
