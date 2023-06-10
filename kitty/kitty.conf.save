@@ -1,4 +1,4 @@
-# vim:fileencoding=utf-8:foldmethod=marker
+q# vim:fileencoding=utf-8:foldmethod=marker
 
 #: Fonts {{{
 
@@ -2397,6 +2397,6 @@ enable_audio_bell no
 
 
 # BEGIN_KITTY_THEME
-# Catppuccin-Mocha
+# Gruvbox Material Dark Hard
 include current-theme.conf
 # END_KITTY_THEME
