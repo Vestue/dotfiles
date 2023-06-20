@@ -11,7 +11,7 @@ echo "---" | tee -a /tmp/polybar1.log
 #polybar bar1 2>&1 | tee -a /tmp/polybar1.log & disown
 
 for m in $(polybar --list-monitors | cut -d":" -f1); do
-  MONITOR=$m polybar --reload top
+  MONITOR=$m polybar --reload top &
 done
 
 echo "Bars launched..."
