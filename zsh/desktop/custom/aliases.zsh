@@ -13,3 +13,4 @@ alias vpndown='bash ~/Repos/linux-files/scripts/wireguard/desktop/down_sweden.sh
 alias wgup='vpnup'
 alias wgdown='vpndown'
 alias wgstatus='bash ~/Repos/linux-files/scripts/wireguard/wireguard_status.sh'
+alias razer='bash ~/Repos/linux-files/scripts/razerlights.py'

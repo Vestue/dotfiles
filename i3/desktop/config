@@ -234,6 +234,9 @@ bindsym Print exec flameshot gui
 # Launch initial terminal on workspace 3
 exec --no-startup-id i3-msg 'workspace $ws3; exec $default_terminal; workspace $ws2'
 
+# Init keyboard colors
+exec --no-startup-id ~/Repos/linux-files/scripts/razerlights.py
+
 # Always set background
 exec_always feh --bg-fill $HOME/Pictures/Wallpapers/dimensional_being.png
 
