@@ -216,6 +216,8 @@ bindsym XF86AudioPause exec playerctl pause
 bindsym XF86AudioNext exec playerctl next
 bindsym XF86AudioPrev exec playerctl previous
 
+# Screenshot
+bindsym Print exec flameshot gui
 
 # Run programs on startup
 exec $default_terminal
