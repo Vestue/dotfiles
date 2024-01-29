@@ -1,5 +1,6 @@
-alias ll='exa -l --git'
-alias ls='exa -1'
+alias ll='eza -l --git'
+alias ls='eza -1'
+alias l='ls -lah --group-directories-first'
 alias gs='git status'
 alias godot='~/Repos/Godot/./Godot.64'
 alias gpull='git pull'
