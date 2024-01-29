@@ -1,5 +1,5 @@
-alias ll='exa -l --git'
-alias ls='exa -1'
+alias ll='eza -l --git'
+alias ls='eza -1'
 alias l='ls -lah --group-directories-first'
 alias gs='git status'
 alias godot='~/Repos/Godot/./Godot.64'
@@ -13,4 +13,4 @@ alias vpndown='bash ~/Repos/linux-files/scripts/wireguard/desktop/down_sweden.sh
 alias wgup='vpnup'
 alias wgdown='vpndown'
 alias wgstatus='bash ~/Repos/linux-files/scripts/wireguard/wireguard_status.sh'
-alias razer='bash ~/Repos/linux-files/scripts/razerlights.py'
+alias razer='python3 ~/Repos/linux-files/scripts/razerlights.py'
