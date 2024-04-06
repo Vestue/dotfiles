@@ -1,0 +1,8 @@
+alias ll='eza -l --git'
+alias ls='eza -1'
+alias l='ls -lah --group-directories-first --sort=modified'
+alias gs='git status'
+alias :q='exit'
+alias gpull='git pull'
+alias c='clear'
+alias bat='batcat'
