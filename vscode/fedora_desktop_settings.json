@@ -1,40 +1,372 @@
 {
-    "extensions.ignoreRecommendations": true,
-    "workbench.iconTheme": "vscode-icons",
-    "editor.cursorSmoothCaretAnimation": true,
-    "editor.cursorBlinking": "phase",
-    "editor.fontLigatures": true,
-    "editor.fontFamily": "'Comic Code Ligatures', 'Fira Code', 'Droid Sans Mono', 'monospace', monospace, 'Droid Sans Fallback'",/*
+  "extensions.ignoreRecommendations": true,
+  "editor.cursorSmoothCaretAnimation": "on",
+  "editor.cursorBlinking": "phase",
+  "editor.fontLigatures": true,
+  "editor.fontFamily": "'Jetbrains Mono Nerd Font', 'Jetbrains Mono', 'Comic Code Ligatures',  'Fira Code', 'Iosevka Term', 'Droid Sans Mono', 'monospace', monospace, 'Droid Sans Fallback'" /*
     "vscode_custom_css.imports": [
         "file:///home/vestue/.vscode/extensions/thecodemonkey.synthwave-x-fluoromachine-epic-animations-1.4.13/synthwave-x-fluoromachine.css",
         "file:///home/vestue/.vscode/extensions/thecodemonkey.synthwave-x-fluoromachine-epic-animations-1.4.13/epic-80s-transitions.css"
-        ],*/
-    "keyboard.dispatch": "keyCode",
-    "vsicons.dontShowNewVersionMessage": true,
-    "workbench.colorTheme": "One Dark Pro",
-    "security.workspace.trust.untrustedFiles": "open",
-    "C_Cpp.vcFormat.newLine.beforeOpenBrace.block": "newLine",
-    "C_Cpp.vcFormat.newLine.beforeOpenBrace.function": "newLine",
-    "C_Cpp.vcFormat.newLine.beforeOpenBrace.lambda": "newLine",
-    "C_Cpp.vcFormat.newLine.beforeOpenBrace.namespace": "newLine",
-    "C_Cpp.vcFormat.newLine.beforeOpenBrace.type": "newLine",
-    "C_Cpp.autocompleteAddParentheses": true,
-    "C_Cpp.vcFormat.space.beforeOpenSquareBracket": true,
-    "C_Cpp.vcFormat.space.betweenEmptyLambdaBrackets": true,
-    "C_Cpp.vcFormat.space.betweenEmptySquareBrackets": true,
-    "C_Cpp.vcFormat.newLine.scopeBracesOnSeparateLines": true,
-    "C_Cpp.vcFormat.space.betweenEmptyBraces": true,
-    "C_Cpp.clang_format_fallbackStyle": "{ BasedOnStyle: LLVM, UseTab: Never, IndentWidth: 4, TabWidth: 4, BreakBeforeBraces: Attach, AllowShortIfStatementsOnASingleLine: false, IndentCaseLabels: false, ColumnLimit: 0, AccessModifierOffset: -4 }",
-    "editor.formatOnType": false,
-    "better-comments.multilineComments": true,
-    "editor.detectIndentation": false,
-    "workbench.editor.showTabs": false,
-    "editor.insertSpaces": false,
-	"editor.tabSize": 4,
-	"git.autofetch": true,
-	"files.autoSave": "afterDelay",
-	"latex-workshop.message.update.show": false,
-    "latex-workshop.message.warning.show": false,
-    "latex-workshop.message.information.show": false,
-	"latex-workshop.message.error.show": false
+        ],*/,
+  "editor.fontSize": 12,
+  //"editor.fontWeight": "bold",
+"keyboard.dispatch": "keyCode",
+  "security.workspace.trust.untrustedFiles": "open",
+  "C_Cpp.vcFormat.newLine.beforeOpenBrace.block": "newLine",
+  "C_Cpp.vcFormat.newLine.beforeOpenBrace.function": "newLine",
+  "C_Cpp.vcFormat.newLine.beforeOpenBrace.lambda": "newLine",
+  "C_Cpp.vcFormat.newLine.beforeOpenBrace.namespace": "newLine",
+  "C_Cpp.vcFormat.newLine.beforeOpenBrace.type": "newLine",
+  "C_Cpp.autocompleteAddParentheses": true,
+  "C_Cpp.vcFormat.space.beforeOpenSquareBracket": true,
+  "C_Cpp.vcFormat.space.betweenEmptyLambdaBrackets": true,
+  "C_Cpp.vcFormat.space.betweenEmptySquareBrackets": true,
+  "C_Cpp.vcFormat.newLine.scopeBracesOnSeparateLines": true,
+  "C_Cpp.vcFormat.space.betweenEmptyBraces": true,
+  "C_Cpp.clang_format_fallbackStyle": "{ BasedOnStyle: LLVM, UseTab: Never, IndentWidth: 4, TabWidth: 4, BreakBeforeBraces: Attach, AllowShortIfStatementsOnASingleLine: false, IndentCaseLabels: false, ColumnLimit: 0, AccessModifierOffset: -4 }",
+  "[cpp]": {
+    "editor.defaultFormatter": "ms-vscode.cpptools"
+  },
+  "editor.formatOnType": false,
+  "better-comments.multilineComments": true,
+  "editor.detectIndentation": false,
+  "workbench.editor.showTabs": "single",
+  "editor.insertSpaces": true,
+  "editor.tabSize": 2,
+  "git.autofetch": true,
+  "files.autoSave": "afterDelay",
+  "latex-workshop.message.update.show": false,
+  "latex-workshop.message.warning.show": false,
+  "latex-workshop.message.information.show": false,
+  "latex-workshop.message.error.show": false,
+  "latex-workshop.view.pdf.viewer": "tab",
+  "latex-workshop.latex.build.forceRecipeUsage": false,
+  "editor.inlineSuggest.enabled": true,
+  "git.confirmSync": false,
+  "github.copilot.enable": {
+    "*": false,
+    "yaml": false,
+    "plaintext": false,
+    "markdown": false,
+    "sqlite": false
+  },
+  "cmake.configureOnOpen": false,
+  "[dart]": {
+    "editor.formatOnSave": true,
+    "editor.formatOnType": true,
+    "editor.rulers": [80],
+    "editor.selectionHighlight": false,
+    "editor.suggest.snippetsPreventQuickSuggestions": false,
+    "editor.suggestSelection": "first",
+    "editor.tabCompletion": "onlySnippets",
+    "editor.wordBasedSuggestions": "off"
+  },
+  "[fsharp]": {
+    "editor.defaultFormatter": "Ionide.Ionide-fsharp"
+  },
+  "window.zoomLevel": 1,
+  "editor.minimap.enabled": false,
+  "workbench.startupEditor": "none",
+  "redhat.telemetry.enabled": true,
+  "editor.formatOnSave": true,
+  "[jsonc]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[python]": {
+    "editor.defaultFormatter": "ms-python.black-formatter"
+  },
+  "black-formatter.args": ["--line-length", "100"],
+  "git.openRepositoryInParentFolders": "never",
+  "workbench.colorTheme": "Catppuccin Noctis Mocha",
+  "editor.formatOnPaste": true,
+  "pymakr.devices.configs": {
+    "serial:///dev/ttyS0": {
+      "autoConnect": "onLostConnection",
+      "name": "",
+      "username": "micro",
+      "password": "python",
+      "hidden": false,
+      "rootPath": null,
+      "adapterOptions": {}
+    },
+    "serial:///dev/ttyS1": {
+      "autoConnect": "onLostConnection",
+      "name": "",
+      "username": "micro",
+      "password": "python",
+      "hidden": false,
+      "rootPath": null,
+      "adapterOptions": {}
+    },
+    "serial:///dev/ttyS10": {
+      "autoConnect": "onLostConnection",
+      "name": "",
+      "username": "micro",
+      "password": "python",
+      "hidden": false,
+      "rootPath": null,
+      "adapterOptions": {}
+    },
+    "serial:///dev/ttyS11": {
+      "autoConnect": "onLostConnection",
+      "name": "",
+      "username": "micro",
+      "password": "python",
+      "hidden": false,
+      "rootPath": null,
+      "adapterOptions": {}
+    },
+    "serial:///dev/ttyS12": {
+      "autoConnect": "onLostConnection",
+      "name": "",
+      "username": "micro",
+      "password": "python",
+      "hidden": false,
+      "rootPath": null,
+      "adapterOptions": {}
+    },
+    "serial:///dev/ttyS13": {
+      "autoConnect": "onLostConnection",
+      "name": "",
+      "username": "micro",
+      "password": "python",
+      "hidden": false,
+      "rootPath": null,
+      "adapterOptions": {}
+    },
+    "serial:///dev/ttyS14": {
+      "autoConnect": "onLostConnection",
+      "name": "",
+      "username": "micro",
+      "password": "python",
+      "hidden": false,
+      "rootPath": null,
+      "adapterOptions": {}
+    },
+    "serial:///dev/ttyS15": {
+      "autoConnect": "onLostConnection",
+      "name": "",
+      "username": "micro",
+      "password": "python",
+      "hidden": false,
+      "rootPath": null,
+      "adapterOptions": {}
+    },
+    "serial:///dev/ttyS16": {
+      "autoConnect": "onLostConnection",
+      "name": "",
+      "username": "micro",
+      "password": "python",
+      "hidden": false,
+      "rootPath": null,
+      "adapterOptions": {}
+    },
+    "serial:///dev/ttyS17": {
+      "autoConnect": "onLostConnection",
+      "name": "",
+      "username": "micro",
+      "password": "python",
+      "hidden": false,
+      "rootPath": null,
+      "adapterOptions": {}
+    },
+    "serial:///dev/ttyS18": {
+      "autoConnect": "onLostConnection",
+      "name": "",
+      "username": "micro",
+      "password": "python",
+      "hidden": false,
+      "rootPath": null,
+      "adapterOptions": {}
+    },
+    "serial:///dev/ttyS19": {
+      "autoConnect": "onLostConnection",
+      "name": "",
+      "username": "micro",
+      "password": "python",
+      "hidden": false,
+      "rootPath": null,
+      "adapterOptions": {}
+    },
+    "serial:///dev/ttyS2": {
+      "autoConnect": "onLostConnection",
+      "name": "",
+      "username": "micro",
+      "password": "python",
+      "hidden": false,
+      "rootPath": null,
+      "adapterOptions": {}
+    },
+    "serial:///dev/ttyS20": {
+      "autoConnect": "onLostConnection",
+      "name": "",
+      "username": "micro",
+      "password": "python",
+      "hidden": false,
+      "rootPath": null,
+      "adapterOptions": {}
+    },
+    "serial:///dev/ttyS21": {
+      "autoConnect": "onLostConnection",
+      "name": "",
+      "username": "micro",
+      "password": "python",
+      "hidden": false,
+      "rootPath": null,
+      "adapterOptions": {}
+    },
+    "serial:///dev/ttyS22": {
+      "autoConnect": "onLostConnection",
+      "name": "",
+      "username": "micro",
+      "password": "python",
+      "hidden": false,
+      "rootPath": null,
+      "adapterOptions": {}
+    },
+    "serial:///dev/ttyS23": {
+      "autoConnect": "onLostConnection",
+      "name": "",
+      "username": "micro",
+      "password": "python",
+      "hidden": false,
+      "rootPath": null,
+      "adapterOptions": {}
+    },
+    "serial:///dev/ttyS24": {
+      "autoConnect": "onLostConnection",
+      "name": "",
+      "username": "micro",
+      "password": "python",
+      "hidden": false,
+      "rootPath": null,
+      "adapterOptions": {}
+    },
+    "serial:///dev/ttyS25": {
+      "autoConnect": "onLostConnection",
+      "name": "",
+      "username": "micro",
+      "password": "python",
+      "hidden": false,
+      "rootPath": null,
+      "adapterOptions": {}
+    },
+    "serial:///dev/ttyS26": {
+      "autoConnect": "onLostConnection",
+      "name": "",
+      "username": "micro",
+      "password": "python",
+      "hidden": false,
+      "rootPath": null,
+      "adapterOptions": {}
+    },
+    "serial:///dev/ttyS27": {
+      "autoConnect": "onLostConnection",
+      "name": "",
+      "username": "micro",
+      "password": "python",
+      "hidden": false,
+      "rootPath": null,
+      "adapterOptions": {}
+    },
+    "serial:///dev/ttyS28": {
+      "autoConnect": "onLostConnection",
+      "name": "",
+      "username": "micro",
+      "password": "python",
+      "hidden": false,
+      "rootPath": null,
+      "adapterOptions": {}
+    },
+    "serial:///dev/ttyS29": {
+      "autoConnect": "onLostConnection",
+      "name": "",
+      "username": "micro",
+      "password": "python",
+      "hidden": false,
+      "rootPath": null,
+      "adapterOptions": {}
+    },
+    "serial:///dev/ttyS3": {
+      "autoConnect": "onLostConnection",
+      "name": "",
+      "username": "micro",
+      "password": "python",
+      "hidden": false,
+      "rootPath": null,
+      "adapterOptions": {}
+    },
+    "serial:///dev/ttyS30": {
+      "autoConnect": "onLostConnection",
+      "name": "",
+      "username": "micro",
+      "password": "python",
+      "hidden": false,
+      "rootPath": null,
+      "adapterOptions": {}
+    },
+    "serial:///dev/ttyS31": {
+      "autoConnect": "onLostConnection",
+      "name": "",
+      "username": "micro",
+      "password": "python",
+      "hidden": false,
+      "rootPath": null,
+      "adapterOptions": {}
+    },
+    "serial:///dev/ttyS4": {
+      "autoConnect": "onLostConnection",
+      "name": "",
+      "username": "micro",
+      "password": "python",
+      "hidden": false,
+      "rootPath": null,
+      "adapterOptions": {}
+    },
+    "serial:///dev/ttyS5": {
+      "autoConnect": "onLostConnection",
+      "name": "",
+      "username": "micro",
+      "password": "python",
+      "hidden": false,
+      "rootPath": null,
+      "adapterOptions": {}
+    },
+    "serial:///dev/ttyS6": {
+      "autoConnect": "onLostConnection",
+      "name": "",
+      "username": "micro",
+      "password": "python",
+      "hidden": false,
+      "rootPath": null,
+      "adapterOptions": {}
+    },
+    "serial:///dev/ttyS7": {
+      "autoConnect": "onLostConnection",
+      "name": "",
+      "username": "micro",
+      "password": "python",
+      "hidden": false,
+      "rootPath": null,
+      "adapterOptions": {}
+    },
+    "serial:///dev/ttyS8": {
+      "autoConnect": "onLostConnection",
+      "name": "",
+      "username": "micro",
+      "password": "python",
+      "hidden": false,
+      "rootPath": null,
+      "adapterOptions": {}
+    },
+    "serial:///dev/ttyS9": {
+      "autoConnect": "onLostConnection",
+      "name": "",
+      "username": "micro",
+      "password": "python",
+      "hidden": false,
+      "rootPath": null,
+      "adapterOptions": {}
+    }
+  }
 }
