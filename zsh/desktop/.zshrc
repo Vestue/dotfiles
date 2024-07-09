@@ -1,3 +1,6 @@
+# GPG Key init
+export GPG_TTY=$(tty)
+
 # Enable Powerlevel10k instant prompt. Should stay close to the top of ~/.zshrc.
 # Initialization code that may require console input (password prompts, [y/n]
 # confirmations, etc.) must go above this block; everything else may go below.
@@ -85,6 +88,12 @@ source $ZSH/oh-my-zsh.sh
 
 # export MANPATH="/usr/local/man:$MANPATH"
 
+export PATH="$PATH:$HOME/.config/emacs/bin"
+export PATH="$PATH:$HOME/.local/bin"
+
+# Nvidia Cuda
+export PATH=/usr/local/cuda-12.4/bin${PATH:+:${PATH}}
+
 # You may need to manually set your language environment
 # export LANG=en_US.UTF-8
 
@@ -125,3 +134,7 @@ fi
 unset __conda_setup
 # <<< conda initialize <<<
 
+# Init pyenv
+export PYENV_ROOT="$HOME/.pyenv"
+[[ -d $PYENV_ROOT/bin ]] && export PATH="$PYENV_ROOT/bin:$PATH"
+eval "$(pyenv init -)"
