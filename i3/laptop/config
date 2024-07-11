@@ -203,6 +203,9 @@ bindsym $mod+r mode "resize"
 # Swap caps lock and escape (For X11)
 exec setxkbmap -option caps:swapescape
 
+# Suspend computer after timeout
+exec --no-startup-id "xidlehook --not-when-fullscreen --not-when-audio --timer 1200 'systemctl suspend' ''"
+
 ##################################
 # For media controls on keyboard #
 ##################################
