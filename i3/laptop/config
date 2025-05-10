@@ -122,14 +122,14 @@ bindsym $mod+a focus parent
 # We use variables to avoid repeating the names in multiple places.
 set $ws1 "1: Terminals"
 set $ws2 "2: Firefox"
-set $ws3 "3: Discord"
+set $ws3 "3: Game"
 set $ws4 "4: IDE"
-set $ws5 "5"
-set $ws6 "6"
+set $ws5 "5  Chat"
+set $ws6 "6  Email"
 set $ws7 "7"
 set $ws8 "8"
 set $ws9 "9: Notes"
-set $ws10 "10: Spotify"
+set $ws10 "10: Music"
 
 # switch to workspace
 bindsym $mod+1 workspace number $ws1
@@ -205,6 +205,10 @@ exec setxkbmap -option caps:swapescape
 
 # Suspend computer after timeout
 exec --no-startup-id "xidlehook --not-when-fullscreen --not-when-audio --timer 1200 'systemctl suspend' ''"
+# Set touchpad options
+exec xinput set-prop "Synaptics TM3336-004" "libinput Tapping Enabled" 1
+exec xinput set-prop "Synaptics TM3336-004" "libinput Natural Scrolling Enabled" 1
+exec xinput set-prop "Synaptics TM3336-004" "libinput Disable While Typing Enabled" 0
 
 ##################################
 # For media controls on keyboard #
